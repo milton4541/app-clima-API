@@ -8,13 +8,19 @@
 .form input[type="text"],
 .form select {
     padding: 1rem;
-    background-color: transparent;
+    background-color: #1a1a1a; /* Cambiar por un fondo oscuro */
     border: .3rem solid var(--white);
     color: var(--white);
     font-size: 1.8rem;
     font-weight: 400;
     border-radius: 1rem;
 }
+
+.form select option {
+    background-color: #333; /* Fondo oscuro para las opciones */
+    color: #fff; /* Color de texto claro para que contraste */
+}
+
 .field ::placeholder {
     color: var(--white);
 }
